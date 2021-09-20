@@ -1,11 +1,11 @@
 const user = {
-  name: 'Ahmet',
-  school: 'Sakarya Unv.',
-  age: 22,
-  address: {
-    city: 'Istanbul',
-    country: 'Turkey',
-  },
+    name: 'Ahmet',
+    school: 'Sakarya Unv.',
+    age: 22,
+    address: {
+        city: 'Istanbul',
+        country: 'Turkey',
+    },
 };
 
 // let name = user.name;
@@ -29,16 +29,18 @@ const user = {
 // console.log("user", user);
 
 function logUser({ name, address: { city } }) {
-  console.log(name, city);
+    console.log(name, city);
 }
 
 const params = {
-  name: 'Ahmet',
-  age: 20,
-  address: {
-    city: 'Istanbul',
-    country: 'Turkey',
-  },
+    name: 'Ahmet',
+    age: 20,
+    address: {
+        city: 'Istanbul',
+        country: 'Turkey',
+    },
 };
 
 logUser(params);
+console.log(params);
+console.log(user);
